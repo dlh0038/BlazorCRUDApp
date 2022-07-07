@@ -1,6 +1,8 @@
 # BlazorCRUDApp
 Blazor WebAssembly App with .Net 6 and EF Core modified to use SQLite for local DB
-----
+
+---
+![ExampleScreenshot](/screenshot.PNG)
 ## steps to setup:
 
 1. Cloned the project from [BlazorCRUDApp](https://github.com/Nabaraj222/BlazorCRUDApp).
@@ -19,6 +21,6 @@ Blazor WebAssembly App with .Net 6 and EF Core modified to use SQLite for local 
     - `dotnet add package Microsoft.EntityFrameworkCore.Sqlite`
 5. Using Terminal to update Client/BlazorCRUDApp.Client.csproj with:
     - `dotnet add package Microsoft.AspNetCore`
-6. Could not use `dotnet ef migrations add _init_`, so I created a SQLite database with Person table using DB Browser for SQLite
+6. Could not use `dotnet ef migrations add init`, so I created a SQLite database with Person table using DB Browser for SQLite
 5. Run the Project: `dotnet watch run --project .\Server\`
 
