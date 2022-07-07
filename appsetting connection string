@@ -1,0 +1,1 @@
+"DefaultConnection": "Data Source = DESKTOP-XXXXXX\\SQLEXPRESS; Database = BlazorCRUDApp; Integrated Security = True; Connect Timeout = 30; Encrypt = False; TrustServerCertificate = False; ApplicationIntent = ReadWrite; MultiSubnetFailover = False"
