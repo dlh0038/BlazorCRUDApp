@@ -14,7 +14,8 @@ builder.Services.AddRazorPages();
 // For entity Framework
 builder.Services.AddDbContext<ApplicationDbContext>(options => 
 { 
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+    //options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+    options.UseSqlite("Data Source = Products.db");
 });
 
 // For DI registration
